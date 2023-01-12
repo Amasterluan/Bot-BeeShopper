@@ -13,7 +13,7 @@ public class Ping extends ListenerAdapter {
         String[] args = event.getMessage().getContentRaw().split(" ");
         TextChannel textChannel = event.getChannel().asTextChannel();
 
-        if(args[0].equalsIgnoreCase("!" + "ping")){
+        if(args[0].equalsIgnoreCase(BeeShopper.prefixMap.get(event.getGuild().getIdLong()) + "ping")){
 
             textChannel.sendMessage(BeeShopper.jda.getGatewayPing()+ "ms").queue();
 
