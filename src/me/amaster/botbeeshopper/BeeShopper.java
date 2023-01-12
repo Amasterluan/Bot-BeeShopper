@@ -11,8 +11,7 @@ public class BeeShopper {
 
     public static void main(String[] args) throws LoginException {
 
-        JDA jda = JDABuilder.create("MTA2Mjg4ODUyNzQ1ODc0MjMwMw.GIziBE.cIvxIYRPgtjruZtq6SdaxoMBEuVsQcMzxScJsY",
-                EnumSet.allOf(GatewayIntent.class)).build();
+        JDA jda = JDABuilder.create(EnumSet.allOf(GatewayIntent.class)).build();
 
     }
 
