@@ -16,6 +16,8 @@ public class BeeShopper {
 
     public static JDA jda;
     public static Map<Long, Character> prefixMap = new THashMap<>();
+    public static Map<Long, Long> joinChannelMap = new THashMap<>();
+    public static Map<Long, Long> leaveChannelMap = new THashMap<>();
 
     public static void main(String[] args) throws LoginException, InterruptedException {
 
@@ -28,7 +30,9 @@ public class BeeShopper {
 
         for (Guild guild: jda.awaitReady().getGuilds()) {
 
-
+        prefixMap.put(guild.getIdLong(), '!');
+        joinChannelMap.put(guild.getIdLong(), null);
+        leaveChannelMap.put(guild.getIdLong(), null);
         }
 
     }
