@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../JDA-5.0.0-beta.2-withDependencies.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/JDA-5.0.0-beta.2-withDependencies.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../log4j-api-2.19.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.19.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../log4j-core-2.19.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.19.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../log4j-slf4j-impl-2.19.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/log4j-slf4j-impl-2.19.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,7 +46,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../SQL/sqlite-jdbc-3.40.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/sqlite-jdbc-3.40.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

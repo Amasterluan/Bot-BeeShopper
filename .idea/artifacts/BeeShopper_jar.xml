@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BeeShopper:jar">
+    <output-path>$PROJECT_DIR$/../..</output-path>
+    <root id="archive" name="BeeShopper.jar">
+      <element id="module-output" name="BeeShopper" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-api-2.19.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-core-2.19.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-slf4j-impl-2.19.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/JDA-5.0.0-beta.2-withDependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

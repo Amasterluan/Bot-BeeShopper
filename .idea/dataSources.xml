@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Bot BeeShopper.db" uuid="8d06378d-5254-49ef-bd46-ce64d2cabc2c">
+    <data-source source="LOCAL" name="beeshopper.db" uuid="7c8115e4-82d8-410a-9dac-699f616df9d6">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../SQL/Bot BeeShopper.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Luan\Documents\Project Bot\BeeShopper\lib\beeshopper.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
